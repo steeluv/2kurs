@@ -3,6 +3,9 @@
 """
 import json
 import yaml
-with open('character.json') as jsonfile:
-    jsonfile = json.load(jsonfile)
-with open("steeluv", "w") as yamlfile:
+
+with open('character.json') as json_file:
+    json_reader = json.load(json_file)
+
+with open("enikeeva", "w") as yaml_file:
+    yaml.dump(json_reader, yaml_file)
