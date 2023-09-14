@@ -1,0 +1,23 @@
+{
+    "name": "oleg",
+    "age": 24,
+    "countries:": [
+        {
+            "name": [
+                "Belarus",
+                "Russia"
+            ],
+            "time": [
+                24,
+                1
+            ],
+            "cities": [
+                "Moscow",
+                "Vladikavkaz",
+                "Krasnodar",
+                "Rostov",
+                "Nalchik"
+            ]
+        }
+    ]
+}
